@@ -34,7 +34,28 @@ p{
   font-size: 14px;
   line-height: 28px;
 }
+
+#line{
+  width: 568px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#footer{
+  margin-bottom: 33px;
+}
+
 /*Essa instrução quer dizer que pega o ultimo A depois de A. Ou seja vai pular o primeiro e pegar os demais*/
 #footer a + a{
   margin-left: 28px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+
 }
