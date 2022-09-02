@@ -34,3 +34,7 @@ p{
   font-size: 14px;
   line-height: 28px;
 }
+/*Essa instrução quer dizer que pega o ultimo A depois de A. Ou seja vai pular o primeiro e pegar os demais*/
+#footer a + a{
+  margin-left: 28px;
+}
