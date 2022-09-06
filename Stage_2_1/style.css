@@ -1,0 +1,115 @@
+
+body{
+  margin: 0;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-width: 100vh;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page{
+
+  width: 1000px;
+  margin: 65px auto 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+  font-family: 'Inter', sans-serif;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+ul li a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #1F1534;
+  opacity: 0.5;
+}
+
+h1, ul{
+  font-family: 'Mulish', sans-serif;
+}
+
+
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  margin: 40px 0;
+ 
+}
+button{
+  color: #F9F9F9;
+  text-transform: uppercase;
+  font-family: 'DM Sans', sans-serif;
+  border: 0px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 32px 15px;
+  background-color: #69B99D;
+  cursor: pointer;
+}
+
+button:hover{
+background: #488f76;
+
+}
+
+h1{
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  width: 498px;
+}
+
+h1 span{
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+footer{
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+footer a{
+  font-weight: 700;
+  color: #1F1534;
+  text-decoration: none;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
