@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crie seu evento</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>Crie e compartilhe seu evento.</h1>
+        <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+      </header>
+
+      <form action="" method="get">
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Informações do Evento</legend>
+
+            <div class="input-wrapper">
+              <label for="titulo-evento"
+                >Título do evento <span>(mínimo 8 caracteres)</span></label
+              >
+              <input type="text" name="" id="titulo-evento" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="link-evento"
+                >Link do evento <span>(comece com https://)</span></label
+              >
+              <input type="url" name="" id="link-evento" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="link-whatsapp"
+                >Whatsapp para contato<span>(somente números)</span></label
+              >
+              <input type="number" name="" id="link-whatsapp" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="info-extras">Informações extras</label>
+              <textarea name="" id="info-extras" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="link-categoria">Categoria</label>
+              <select name="" id="link-categoria">
+                <option value="live">Ao vivo</option>
+                <option value="podcast">Podcast</option>
+                <option value="mentorship">Mentoria</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="fieldset-wrapper"></div>
+          <legend>Privacidade</legend>
+          <div class="input-wrapper">
+            <label for="titulo-email"
+              >E-mail do administrador
+              <span>(digite um email válido)</span></label
+            >
+            <input type="email" name="" id="titulo-email" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="input-senha"
+              >Senha de acesso para os participantes
+              <span>(mínimo 8 caracteres)</span></label
+            >
+            <input type="password" name="" id="input-senha" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
