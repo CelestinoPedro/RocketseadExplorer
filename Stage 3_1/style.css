@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%; /*10px*/
+}
+
+body{
+    background: #ECE9FD;
+    font-family: 'Epilogue', sans-serif;
+
+    padding: 6.0rem 2.3rem 6.6rem;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    color: #090039;
+}
+
+p,a{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+}
+
+.session-p-01{
+
+    letter-spacing: 3.0rem;
+    text-transform: uppercase;
+
+/* Text_Dark_Accent */
+
+    color: #7158EF;
+
+}
+.session-p-02{
+    color: rgba(10, 0, 57, 0.64);
+
+}
+
+span{
+
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+    letter-spacing: -2.0prem;
+
+    color: #090039;
+    
+}
+
+ul{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    
+    color: #090039; 
+    list-style: none;
+}
